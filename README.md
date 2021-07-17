@@ -1,4 +1,4 @@
-# 3DCNN-MRI
+# 3DCNN-MRI-Binary-Classification
 
 Español (Scroll down for English)
 
