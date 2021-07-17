@@ -17,6 +17,9 @@ para ese proceso (realiza el data augmentation durante el entrenamiento para aho
 Documentacion TorchIO:  https://torchio.readthedocs.io/
 Tutoriales torchIO:https://github.com/fepegar/torchio/blob/master/notebooks/README.md
 
+Si vas a usar TorcchIO para realizar el data augmentation te recomiendo que utilices Pytorch en lugar de Keras para implementar el modelo, ya que torchio
+esta pensado para ello.
+
 English
 
 Here you can find the Python code for preprocessing, data augment and classify magnetic resonance images using convolutional neural networks. All the code
@@ -33,4 +36,6 @@ Data augmetation is implemented so images are read, data augmetation and histogr
 Documentation: https://torchio.readthedocs.io/
 Tutorials: https://github.com/fepegar/torchio/blob/master/notebooks/README.md
 
+If you are going to use TorchIO for data augmentation I strongly recommend you to use Pytorch instead of Keras for implementing the neural network, as TorchIO
+is implemented for it.
 
