@@ -4,13 +4,15 @@ Español (Scroll down for English)
 
 Aquí puedes encontrar el código Python para preprocesar, realizar data augmentation y clasificar, mediante redes convolucionales, imágenes de resoancia magnética entre sujetos sanos y pacientes. Todo el codigo esta comentado en castellano y en ingles.
 
-El codigo de preDprocess utiliza el paquete nipype y es facilmente generalizable. Para mas informacion y tutoriales sobre nipype:
+El codigo de preprocess utiliza el paquete nipype y es facilmente generalizable. Para mas informacion y tutoriales sobre nipype:
 Documentacion y ejemplos: https://nipype.readthedocs.io/en/latest/#
 Turtoriales: https://miykael.github.io/nipype-beginner-s-guide/
 
 El codigo para la red neuronal convolucional en 3D esta implementado en Tensorflow/Keras y es facilmente generalizable. Puedes encontrar un tutorial
 sobre una red neuronal similar aplicada a imagen medica en:
 https://keras.io/examples/vision/3D_image_classification/
+
+El codigo para el SVM esta implementado en SciKit Learn y es facilmente generalizable
 
 El codigo para realizar el data augmentation esta pensado para leer las imagenes, realzar data augmentation y histogram matching, y guardar las nuevas imagenes. TorchIO no esa pensado
 para ese proceso (realiza el data augmentation durante el entrenamiento para ahorrar memoria). Por esto el codigo es poco generalizable e incluso confuso. Por suerte torchIO tiene grandes tutoriales:
@@ -31,6 +33,8 @@ Tutorials: https://miykael.github.io/nipype-beginner-s-guide/
 
 The code for the 3D convolutional neural network is implemented in Tensorflow/Keras and it is easy to generalize. For a similar net tutorial on medical image:
 https://keras.io/examples/vision/3D_image_classification/
+
+The code for the SVM is implemented in SciKit Learn and it is easy to generalize
 
 Data augmetation is implemented so images are read, data augmetation and histogram matching is performed, and all new iamges are saved into disk. TorchIO is not ment to use it that way, (it is ment to perform data augmentation during training in order to avoid memory issues). That is the reason why the code can be a little difficult to generalize. You can find everything about torchIO in:
 Documentation: https://torchio.readthedocs.io/
