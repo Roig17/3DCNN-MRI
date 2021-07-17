@@ -4,9 +4,9 @@ Español (Scroll down for English)
 
 Aquí puedes encontrar el código Python para preprocesar, realizar data augmentation y clasificar, mediante redes convolucionales, imágenes de resoancia magnética entre sujetos sanos y pacientes. Todo el codigo esta comentado en castellano y en ingles.
 
-El codigo de preprocess utiliza el paquete nipype y es facilmente generalizable. Para mas informacion y tutoriales sobre nipype:
-https://nipype.readthedocs.io/en/latest/#
-https://miykael.github.io/nipype-beginner-s-guide/
+El codigo de preDprocess utiliza el paquete nipype y es facilmente generalizable. Para mas informacion y tutoriales sobre nipype:
+Documentacion y ejemplos: https://nipype.readthedocs.io/en/latest/#
+Turtoriales: https://miykael.github.io/nipype-beginner-s-guide/
 
 El codigo para la red neuronal convolucional en 3D esta implementado en Tensorflow/Keras y es facilmente generalizable. Puedes encontrar un tutorial
 sobre una red neuronal similar aplicada a imagen medica en:
@@ -23,8 +23,8 @@ Here you can find the Python code for preprocessing, data augment and classify m
 is comented in both spanish and english
 
 The code for the preprocessing step is mainly done using nipype library and it is easy to generalize. For more information an tutorials on nipype:
-https://nipype.readthedocs.io/en/latest/#
-https://miykael.github.io/nipype-beginner-s-guide/
+Docs and examples: https://nipype.readthedocs.io/en/latest/#
+Tutorials: https://miykael.github.io/nipype-beginner-s-guide/
 
 The code for the 3D convolutional neural network is implemented in Tensorflow/Keras and it is easy to generalize. For a similar net tutorial on medical image:
 https://keras.io/examples/vision/3D_image_classification/
