@@ -12,7 +12,7 @@ El codigo para la red neuronal convolucional en 3D esta implementado en Tensorfl
 sobre una red neuronal similar aplicada a imagen medica en:
 https://keras.io/examples/vision/3D_image_classification/
 
-El codigo para realizar el data augmentation esta pensado para leer las imagenes, realzar data augmentation y guardar las nuevas imagenes. TorchIO no esa pensado
+El codigo para realizar el data augmentation esta pensado para leer las imagenes, realzar data augmentation y histogram matching, y guardar las nuevas imagenes. TorchIO no esa pensado
 para ese proceso (realiza el data augmentation durante el entrenamiento para ahorrar memoria). Por esto el codigo es poco generalizable e incluso confuso. Por suerte torchIO tiene grandes tutoriales:
 Documentacion TorchIO:  https://torchio.readthedocs.io/
 Tutoriales torchIO:https://github.com/fepegar/torchio/blob/master/notebooks/README.md
@@ -29,8 +29,7 @@ Tutorials: https://miykael.github.io/nipype-beginner-s-guide/
 The code for the 3D convolutional neural network is implemented in Tensorflow/Keras and it is easy to generalize. For a similar net tutorial on medical image:
 https://keras.io/examples/vision/3D_image_classification/
 
-Data augmetation is implemented so images are read, data augmetation is performed, and all new iamges are saved into disk. TorchIO is not ment to use it that way,
-(it is ment to perform data augmentation during training in order to avoid memory issues). That is the reason why the code can be a little difficult to generalize. You can find everything about torchIO in:
+Data augmetation is implemented so images are read, data augmetation and histogram matching is performed, and all new iamges are saved into disk. TorchIO is not ment to use it that way, (it is ment to perform data augmentation during training in order to avoid memory issues). That is the reason why the code can be a little difficult to generalize. You can find everything about torchIO in:
 Documentation: https://torchio.readthedocs.io/
 Tutorials: https://github.com/fepegar/torchio/blob/master/notebooks/README.md
 
