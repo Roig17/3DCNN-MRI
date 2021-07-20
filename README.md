@@ -27,7 +27,7 @@ English
 Here you can find the Python code for preprocessing, data augment and classify magnetic resonance images using convolutional neural networks. All the code
 is comented in both spanish and english
 
-The code for the preprocessing step is mainly done using nipype library and it is easy to generalize. For more information an tutorials on nipype:
+The code for the preprocessing step is mainly done using nipype library and it is easy to generalize. For more information and tutorials on nipype:
 Docs and examples: https://nipype.readthedocs.io/en/latest/#
 Tutorials: https://miykael.github.io/nipype-beginner-s-guide/
 
